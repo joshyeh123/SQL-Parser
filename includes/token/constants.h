@@ -1,0 +1,14 @@
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
+enum TOKEN_TYPES {
+  LOGIC,
+  TOKENSTR,
+  RELATIONAL,
+  UNIVERSAL,
+  LPAREN,
+  RPAREN,
+  TOKEN
+};
+
+#endif // CONSTANTS_H
